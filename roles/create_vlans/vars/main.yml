@@ -48,3 +48,12 @@ vlans:
     vid: 60
     vlan_group: HM_VLANS
     vlan_role: Point_to_Point
+
+
+  - name: LMTB
+    site: sana
+    status: reserved
+    tenant: Consulting
+    vid: 60
+    vlan_group: HM_VLANS
+    vlan_role: Radio-Access-Nework-SiteLan
