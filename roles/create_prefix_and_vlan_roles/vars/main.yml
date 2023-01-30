@@ -7,3 +7,4 @@ ipam_roles:
   - name: Guest_WiFi
   - name: Network_Management
   - name: Point_to_Point
+  - name: Radio-Access-Nework-SiteLan
