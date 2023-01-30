@@ -1,6 +1,6 @@
 ---
 vlan_groups:
 
-  - name: TS33_vlans
+  - name: TS23_vlans
     scope_type: dcim.site
-    scope: sana
+    scope: TS23
