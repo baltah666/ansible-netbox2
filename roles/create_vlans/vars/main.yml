@@ -54,6 +54,6 @@ vlans:
     site: sana
     status: reserved
     tenant: Consulting
-    vid: 60
+    vid: 70
     vlan_group: HM_VLANS
     vlan_role: Radio-Access-Nework-SiteLan
