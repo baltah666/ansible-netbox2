@@ -91,3 +91,10 @@ ip_addresses:
     prefix: 192.168.2.0/26
     status: Reserved
     tenant: Consulting
+
+- assigned_object:
+      device: AUBRI01-SW-2
+      name: me0
+    prefix: 192.168.2.0/26
+    status: Reserved
+    tenant: Consulting
