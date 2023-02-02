@@ -43,4 +43,6 @@ set interfaces ge-0/0/24 unit 0 family ethernet-switching port-mode access vlan 
 set interfaces ge-0/0/25 unit 0 family ethernet-switching port-mode access vlan members VOICE
 set interfaces ge-0/0/26 unit 0 family ethernet-switching port-mode trunk vlan members all
 set interfaces ge-0/0/27 unit 0 family ethernet-switching port-mode trunk vlan members all
+set interfaces ge-0/0/30 unit 0 family ethernet-switching port-mode access vlan members DATA
+set interfaces ge-0/0/31 unit 0 family ethernet-switching port-mode access vlan members DATA
  

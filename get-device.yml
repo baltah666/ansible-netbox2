@@ -1,0 +1,11 @@
+---
+- name: 1 - Get Devices
+  uri:
+#      url: "{{ netbox_url }}api/dcim/devices/?name={{ inventory_hostname }}"
+      url: "http://192.168.174.157:8000/api/dcim/devices/?name={{ inventory_hostname }}"
+      method: GET
+      return_content: yes
+      headers:
+          accept: "application/json"
+          Authorization: "Token 0123456789abcdef0123456789abcdef01234567"
+  register: device
